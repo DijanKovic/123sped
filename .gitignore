@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Builds & caches
+**/build/
+**/dist/
+**/.react-router/
+**/.vite/
+.turbo/
+.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Test / coverage
+coverage/
+.nyc_output/
